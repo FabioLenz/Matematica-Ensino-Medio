@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #ff1616;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#imgLogo {
+    width: 20%;
+    margin-left: 15%;
+}
+
+.lista-cabecalho {
+    position: absolute;
+    top: 7.3%;
+    right: 15%;
+}
+
+.itens-cabecalho {
+    display: inline;
+    margin-left: 15px;
+}
+
+.links-cabecalho {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+   .caixa {
+    width: auto;
+   } 
+   #imgLogo {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+   }
+
+   .lista-cabecalho {
+    margin-top: 1em;
+    position: static;
+    display: block;
+    text-align: center;
+
+   }
+}
